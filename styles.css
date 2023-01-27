@@ -11,8 +11,8 @@ html, body {
   }
   
   body {
-    width: 70%;
-    min-width: 700px;
+    width: 60%;
+    min-width: 800px;
     margin: 0 auto;
   }
   
@@ -133,28 +133,31 @@ html, body {
   /* || main layout */
   
   main {
-    display: flex;
+    display: flex
   }
   
   article {
+    display: block;
     flex: 4;
     margin-left: 20px;
+    width: 100%;
   }
   
   aside {
+    display: block;
+    float: left
     flex: 3;
-    margin-right: 40px;
+    margin-right: 60px;
     padding: 1%;
   }
   
   aside a {
     display: block;
-    float: left;
-    width: 50%;
+    width: 100%;
   }
   
   aside img {
-    max-width: 100%;
+    max-width: 75%;
   }
   
   footer {
