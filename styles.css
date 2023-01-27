@@ -134,30 +134,28 @@ html, body {
   
   main {
     display: flex
+
   }
   
   article {
-    display: block;
-    flex: 4;
+    flex: 5;
     margin-left: 20px;
-    width: 100%;
   }
   
   aside {
-    display: block;
-    float: left
-    flex: 3;
-    margin-right: 60px;
+    flex: 5;
+    margin-right: 20px;
     padding: 1%;
   }
   
   aside a {
     display: block;
+    float: left;
     width: 100%;
   }
   
   aside img {
-    max-width: 75%;
+    max-width: 100%;
   }
   
   footer {
