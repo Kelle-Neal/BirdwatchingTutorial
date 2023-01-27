@@ -67,8 +67,18 @@ html, body {
     padding: 1%;
   }
   
-  main, header, nav, article, aside, footer, section {
+  header, nav, footer {
     background-color: #203b52;
+    padding: 1%;
+  }
+
+  main, article {
+    background-color: #4682B4;
+    padding: 1%;
+  }
+
+  aside, section {
+    background-color: #4682B4;
     padding: 1%;
   }
   
@@ -143,5 +153,7 @@ html, body {
   
   footer {
     margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
   }
   
